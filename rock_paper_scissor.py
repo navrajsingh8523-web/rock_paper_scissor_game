@@ -12,9 +12,9 @@ def game(user):
     elif user == "Paper" and computer == "Rock":
         result = "You Win"
     elif user == "Scissors" and computer == "Paper":
-        result = "You Win"
+        result = "You Win 🥳"
     else:
-        result = "Computer Wins"
+        result = "Computer Wins 🤖"
 
     label.config(text="You: " + user +
                       "\nComputer: " + computer +
